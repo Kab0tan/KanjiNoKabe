@@ -53,7 +53,7 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
     try {
       const data = await import(`@/assets/constants/N${level.value}.json`)
       kanjisList.value = shuffleArray(data.default)
-      // optionsList.value = data.default.map((item) => item.english)
+      handleQuestionType() //refresh options
       refresh()
     } catch (error) {
       console.log(error)
@@ -144,6 +144,7 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   const getRandomAnswers = (_data) => {
     const optionsListCopy = _data.value.slice() // Make a copy of the optionsList array
     //reset list before filling it
+    console.log(_data)
     randomItems.value = []
     for (let i = 0; i < 3; i++) {
       let randomIndex

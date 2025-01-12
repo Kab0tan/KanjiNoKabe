@@ -1,22 +1,22 @@
 [
   { "kanji": "会", "english": "meeting, meet", "kunyomi": "a(u)", "onyomi": "kai" },
-  { "kanji": "同", "english": "same, agree, equal", "kunyomi": "onaji", "onyomi": "dou" },
+  { "kanji": "同", "english": "same, equal", "kunyomi": "onaji", "onyomi": "dou" },
   {
     "kanji": "事",
-    "english": "matter, thing, fact, business, reason, possibly",
+    "english": "matter, thing",
     "kunyomi": "koto",
     "onyomi": "ji"
   },
   { "kanji": "自", "english": "oneself", "kunyomi": "mizuka(ra)", "onyomi": "ji, shi" },
   {
     "kanji": "社",
-    "english": "company, firm, office, association, shrine",
+    "english": "company, office",
     "kunyomi": "yashiro",
     "onyomi": "sha"
   },
   {
     "kanji": "発",
-    "english": "departure, discharge, emit, start from",
+    "english": "departure",
     "kunyomi": "",
     "onyomi": "hatsu, hotsu"
   },
@@ -24,13 +24,13 @@
   { "kanji": "地", "english": "ground, earth", "kunyomi": "", "onyomi": "chi, ji" },
   {
     "kanji": "業",
-    "english": "business, vocation, arts, performance",
+    "english": "business, vocation",
     "kunyomi": "waza",
     "onyomi": "gyou"
   },
   {
     "kanji": "方",
-    "english": "direction, person, alternative",
+    "english": "direction, person",
     "kunyomi": "kata",
     "onyomi": "hou"
   },
@@ -38,170 +38,170 @@
   { "kanji": "場", "english": "location, place", "kunyomi": "ba", "onyomi": "jou" },
   {
     "kanji": "員",
-    "english": "employee, member, number, the one in charge",
+    "english": "employee, member",
     "kunyomi": "",
     "onyomi": "in"
   },
   { "kanji": "立", "english": "stand up, rise", "kunyomi": "ta(tsu)", "onyomi": "ritsu" },
   {
     "kanji": "開",
-    "english": "open, unfold, unseal",
+    "english": "open, unfold",
     "kunyomi": "hira(ku), a(keru)",
     "onyomi": "kai"
   },
   { "kanji": "手", "english": "hand", "kunyomi": "te", "onyomi": "shu" },
   {
     "kanji": "力",
-    "english": "power, strength, strong, strain, bear up, exert",
+    "english": "power, strength",
     "kunyomi": "chikara",
     "onyomi": "ryoku, riki"
   },
   { "kanji": "問", "english": "question, ask, problem", "kunyomi": "to(u)", "onyomi": "mon" },
   {
     "kanji": "代",
-    "english": "substitute, change, convert, replace, period",
+    "english": "substitute, change",
     "kunyomi": "ka(wari)",
     "onyomi": "dai"
   },
   { "kanji": "明", "english": "bright, light", "kunyomi": "aka(rui)", "onyomi": "mei, myou" },
-  { "kanji": "動", "english": "move, motion, change", "kunyomi": "ugo(ku)", "onyomi": "dou" },
+  { "kanji": "動", "english": "move, motion", "kunyomi": "ugo(ku)", "onyomi": "dou" },
   { "kanji": "京", "english": "capital", "kunyomi": "miyako", "onyomi": "kyou, kei, kin" },
   {
     "kanji": "目",
-    "english": "eye, class, look, insight, experience",
+    "english": "eye, look",
     "kunyomi": "me",
     "onyomi": "moku, boku"
   },
   {
     "kanji": "通",
-    "english": "traffic, pass through, avenue, commute",
+    "english": "traffic, avenue",
     "kunyomi": "too(ru), kayo(u)",
     "onyomi": "tsuu"
   },
   { "kanji": "言", "english": "say, word", "kunyomi": "i(u), koto", "onyomi": "gen, gon" },
   {
     "kanji": "理",
-    "english": "logic, arrangement, reason, justice, truth",
+    "english": "logic, justice",
     "kunyomi": "",
     "onyomi": "ri"
   },
   {
     "kanji": "体",
-    "english": "body, substance, object, reality",
+    "english": "body, object",
     "kunyomi": "karada",
     "onyomi": "tai"
   },
-  { "kanji": "田", "english": "rice field, rice paddy", "kunyomi": "ta", "onyomi": "den" },
+  { "kanji": "田", "english": "rice field", "kunyomi": "ta", "onyomi": "den" },
   {
     "kanji": "主",
-    "english": "lord, chief, master, main thing, principal",
+    "english": "lord, chief, master",
     "kunyomi": "nushi, omo",
     "onyomi": "shu"
   },
   { "kanji": "題", "english": "topic, subject", "kunyomi": "", "onyomi": "dai" },
-  { "kanji": "意", "english": "idea, mind, heart, taste, thought", "kunyomi": "", "onyomi": "i" },
-  { "kanji": "不", "english": "negative, non-, bad", "kunyomi": "", "onyomi": "fu, bu" },
+  { "kanji": "意", "english": "idea, mind, heart", "kunyomi": "", "onyomi": "i" },
+  { "kanji": "不", "english": "negative, non-", "kunyomi": "", "onyomi": "fu, bu" },
   {
     "kanji": "作",
-    "english": "make, production, prepare, build",
+    "english": "make, build",
     "kunyomi": "tsuku(ru)",
     "onyomi": "saku, sa"
   },
   {
     "kanji": "用",
-    "english": "utilize, business, service, use, employ",
+    "english": "utilize, use",
     "kunyomi": "mochi(iru)",
     "onyomi": "you"
   },
   {
     "kanji": "度",
-    "english": "degrees, occurrence, time, counter for occurrences",
+    "english": "degrees, occurrence",
     "kunyomi": "tabi, ta(i)",
     "onyomi": "do, taku"
   },
   { "kanji": "強", "english": "strong", "kunyomi": "tsuyo(i)", "onyomi": "kyou, gou" },
   {
     "kanji": "公",
-    "english": "public, prince, official, governmental",
+    "english": "public, prince",
     "kunyomi": "",
     "onyomi": "kou"
   },
   { "kanji": "持", "english": "hold, have", "kunyomi": "mo(tsu)", "onyomi": "ji" },
   {
     "kanji": "野",
-    "english": "plains, field, rustic, civilian life",
+    "english": "plains, field",
     "kunyomi": "no",
     "onyomi": "ya"
   },
   {
     "kanji": "以",
-    "english": "by means of, because, in view of, compared with",
+    "english": "by means of, because",
     "kunyomi": "mo(tte)",
     "onyomi": "i"
   },
   { "kanji": "思", "english": "think", "kunyomi": "omo(u)", "onyomi": "shi" },
   {
     "kanji": "家",
-    "english": "house, home, family, professional, expert",
+    "english": "house, home, family",
     "kunyomi": "ie, ya, uchi",
     "onyomi": "ka"
   },
   {
     "kanji": "世",
-    "english": "generation, world, society, public",
+    "english": "generation, world, society",
     "kunyomi": "yo",
     "onyomi": "sei, se"
   },
-  { "kanji": "多", "english": "many, frequent, much", "kunyomi": "oo(i)", "onyomi": "ta" },
+  { "kanji": "多", "english": "many, frequent", "kunyomi": "oo(i)", "onyomi": "ta" },
   {
     "kanji": "正",
-    "english": "correct, justice, righteous",
+    "english": "correct, justice",
     "kunyomi": "tada(shii), masa(ni)",
     "onyomi": "sei, shou"
   },
   { "kanji": "安", "english": "safe, peaceful, cheap", "kunyomi": "yasu(i)", "onyomi": "an" },
   {
     "kanji": "院",
-    "english": "institution, temple, mansion, school",
+    "english": "institution",
     "kunyomi": "",
     "onyomi": "in"
   },
-  { "kanji": "心", "english": "heart, mind, spirit", "kunyomi": "kokoro", "onyomi": "shin" },
+  { "kanji": "心", "english": "heart, mind", "kunyomi": "kokoro", "onyomi": "shin" },
   { "kanji": "界", "english": "world, boundary", "kunyomi": "", "onyomi": "kai" },
   {
     "kanji": "教",
-    "english": "teach, faith, doctrine",
+    "english": "teach, faith",
     "kunyomi": "oshi(eru), oso(waru)",
     "onyomi": "kyou"
   },
   {
     "kanji": "文",
-    "english": "sentence, literature, style, art",
+    "english": "sentence, literature",
     "kunyomi": "fumi",
     "onyomi": "bun, mon"
   },
   {
     "kanji": "元",
-    "english": "beginning, former time, origin",
+    "english": "beginning, origin",
     "kunyomi": "moto",
     "onyomi": "gen, gan"
   },
   {
     "kanji": "重",
-    "english": "heavy, important, esteem, respect",
+    "english": "heavy, important",
     "kunyomi": "omo(i), kasa(neru)",
     "onyomi": "juu, chou"
   },
   {
     "kanji": "近",
-    "english": "near, early, akin, tantamount",
+    "english": "near, early",
     "kunyomi": "chika(i)",
     "onyomi": "kin"
   },
-  { "kanji": "考", "english": "consider, think over", "kunyomi": "kanga(eru)", "onyomi": "kou" },
+  { "kanji": "考", "english": "consider", "kunyomi": "kanga(eru)", "onyomi": "kou" },
   {
     "kanji": "画",
-    "english": "brush-stroke, picture",
+    "english": "picture",
     "kunyomi": "kaku(suru)",
     "onyomi": "ga, kaku"
   },
@@ -210,14 +210,14 @@
   { "kanji": "知", "english": "know, wisdom", "kunyomi": "shi(ru)", "onyomi": "chi" },
   {
     "kanji": "道",
-    "english": "road-way, street, district, journey, course",
+    "english": "road-way, street",
     "kunyomi": "michi",
     "onyomi": "dou"
   },
   { "kanji": "集", "english": "gather, meet", "kunyomi": "atsu(meru)", "onyomi": "shuu" },
   {
     "kanji": "別",
-    "english": "separate, branch off, diverge",
+    "english": "separate",
     "kunyomi": "waka(reru), wa(keru)",
     "onyomi": "betsu"
   },
@@ -229,19 +229,19 @@
   },
   {
     "kanji": "使",
-    "english": "use, order, messenger, ambassador",
+    "english": "use, order",
     "kunyomi": "tsuka(u)",
     "onyomi": "shi"
   },
   {
     "kanji": "品",
-    "english": "goods, refinement, dignity, article",
+    "english": "goods, refinement",
     "kunyomi": "shina",
     "onyomi": "hin"
   },
   {
     "kanji": "計",
-    "english": "plot, plan, scheme, measure",
+    "english": "plot, plan, ",
     "kunyomi": "haka(ru)",
     "onyomi": "kei"
   },
@@ -252,39 +252,39 @@
   { "kanji": "朝", "english": "morning", "kunyomi": "asa", "onyomi": "chou" },
   {
     "kanji": "運",
-    "english": "carry, luck, destiny, fate, transport",
+    "english": "carry, luck",
     "kunyomi": "hako(bu)",
     "onyomi": "un"
   },
   { "kanji": "終", "english": "end, finish", "kunyomi": "o(waru)", "onyomi": "shuu" },
   {
     "kanji": "台",
-    "english": "pedestal, a stand, counter for machines and vehicles",
+    "english": "pedestal, a stand",
     "kunyomi": "utena",
     "onyomi": "dai, tai"
   },
-  { "kanji": "広", "english": "wide, broad, spacious", "kunyomi": "hiro(i)", "onyomi": "kou" },
+  { "kanji": "広", "english": "wide, spacious", "kunyomi": "hiro(i)", "onyomi": "kou" },
   {
     "kanji": "住",
-    "english": "dwell, reside, live, inhabit",
+    "english": "reside, live",
     "kunyomi": "su(mu)",
     "onyomi": "juu, chuu"
   },
   {
     "kanji": "無",
-    "english": "nothingness, none, ain't, nothing, nil, not",
+    "english": "nothingness, none",
     "kunyomi": "na(i)",
     "onyomi": "mu, bu"
   },
   {
     "kanji": "真",
-    "english": "true, reality, Buddhist sect",
+    "english": "true, reality",
     "kunyomi": "ma, makoto",
     "onyomi": "shin"
   },
   {
     "kanji": "有",
-    "english": "possess, have, exist, happen",
+    "english": "possess, have, exist",
     "kunyomi": "a(ru)",
     "onyomi": "yuu, u"
   },
@@ -292,7 +292,7 @@
   { "kanji": "少", "english": "few, little", "kunyomi": "suku(nai), suko(shi)", "onyomi": "shou" },
   {
     "kanji": "町",
-    "english": "town, village, block, street",
+    "english": "town, village",
     "kunyomi": "machi",
     "onyomi": "chou"
   },
@@ -301,13 +301,13 @@
   { "kanji": "建", "english": "build", "kunyomi": "ta(teru)", "onyomi": "ken, kon" },
   {
     "kanji": "空",
-    "english": "empty, sky, void, vacant, vacuum",
+    "english": "empty, sky",
     "kunyomi": "sora, kara, a(ku), su(ku), muna(shii)",
     "onyomi": "kuu"
   },
   {
     "kanji": "急",
-    "english": "hurry, emergency, sudden, steep",
+    "english": "hurry, emergency",
     "kunyomi": "iso(gu)",
     "onyomi": "kyuu"
   },
@@ -320,17 +320,17 @@
   { "kanji": "送", "english": "escort, send", "kunyomi": "oku(ru)", "onyomi": "sou" },
   {
     "kanji": "切",
-    "english": "cut, cutoff, be sharp",
+    "english": "cut, cutoff",
     "kunyomi": "ki(ru)",
     "onyomi": "setsu, sai"
   },
   {
     "kanji": "転",
-    "english": "revolve, turn around, change",
+    "english": "revolve, turn around",
     "kunyomi": "koro(garu)",
     "onyomi": "ten"
   },
-  { "kanji": "研", "english": "polish, study of, sharpen", "kunyomi": "to(gu)", "onyomi": "ken" },
+  { "kanji": "研", "english": "polish, sharpen", "kunyomi": "to(gu)", "onyomi": "ken" },
   {
     "kanji": "足",
     "english": "leg, foot, be sufficient",
@@ -340,19 +340,19 @@
   { "kanji": "究", "english": "research, study", "kunyomi": "", "onyomi": "kyuu" },
   {
     "kanji": "楽",
-    "english": "music, comfort, ease",
+    "english": "music, comfort",
     "kunyomi": "tano(shii)",
     "onyomi": "gaku, raku"
   },
   {
     "kanji": "起",
-    "english": "wake up, get up; rouse",
+    "english": "wake up, get up",
     "kunyomi": "o(kiru), oko(su)",
     "onyomi": "ki"
   },
   {
     "kanji": "着",
-    "english": "arrive, wear, counter for suits of clothing",
+    "english": "arrive, wear",
     "kunyomi": "ki(ru), tsu(ku)",
     "onyomi": "chaku"
   },
@@ -360,7 +360,7 @@
   { "kanji": "病", "english": "ill, sick", "kunyomi": "ya(mu)", "onyomi": "byou" },
   {
     "kanji": "質",
-    "english": "substance, quality, matter, temperament",
+    "english": "substance, quality",
     "kunyomi": "tachi, tada(su)",
     "onyomi": "shitsu, shichi"
   }
