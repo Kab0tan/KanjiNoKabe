@@ -1,0 +1,14 @@
+.right-kanji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-direction: column;
+
+  &--button {
+    margin-bottom: 3em;
+  }
+  &--slider {
+    margin-bottom: 3em;
+  }
+}

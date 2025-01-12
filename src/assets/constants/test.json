@@ -1,0 +1,16 @@
+{
+  "name": "My Campaign",
+  "m_campaign_id": 123,
+  "audiences": [
+    {
+      "name": "Audience 1",
+      "id": 1
+    },
+    {
+      "name": "Audience 2",
+      "id": 2
+    }
+  ],
+  "n_days": 7,
+  "p_margin": 10
+}
