@@ -10,10 +10,16 @@
 
 <script setup>
 import './KanjiLeftPanel.scss'
+import { watch } from 'vue'
 import { useKanjiStore } from '@/stores/kanji'
 import { storeToRefs } from 'pinia'
 
 const kanjiStore = useKanjiStore()
+const { loadKanjiData } = kanjiStore
 
 const { level } = storeToRefs(kanjiStore)
+
+watch(level, () => {
+  loadKanjiData()
+})
 </script>

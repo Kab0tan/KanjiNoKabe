@@ -1,0 +1,322 @@
+[
+  {
+    "kanji": "党",
+    "onyomi": "tou",
+    "kunyomi": "nakama, mura",
+    "english": "party, faction, clique"
+  },
+  { "kanji": "協", "onyomi": "kyou", "kunyomi": null, "english": "co-, cooperation" },
+  { "kanji": "総", "onyomi": "sou", "kunyomi": "sube(te), fusa", "english": "general, whole, all" },
+  { "kanji": "区", "onyomi": "ku", "kunyomi": null, "english": "ward, district" },
+  { "kanji": "領", "onyomi": "ryou", "kunyomi": "eri", "english": "jurisdiction, dominion" },
+  { "kanji": "県", "onyomi": "ken", "kunyomi": "ka(keru)", "english": "prefecture" },
+  {
+    "kanji": "設",
+    "onyomi": "setsu",
+    "kunyomi": "mou(keru)",
+    "english": "establishment, provision"
+  },
+  {
+    "kanji": "保",
+    "onyomi": "ho, hou",
+    "kunyomi": "tamo(tsu)",
+    "english": "protect, guarantee, keep"
+  },
+  {
+    "kanji": "改",
+    "onyomi": "kai",
+    "kunyomi": "arata(meru)",
+    "english": "reformation, change, modify"
+  },
+  { "kanji": "第", "onyomi": "dai", "kunyomi": null, "english": "No., number" },
+  {
+    "kanji": "結",
+    "onyomi": "ketsu",
+    "kunyomi": "musu(bu), yu(u)",
+    "english": "tie, bind, contract"
+  },
+  { "kanji": "派", "onyomi": "ha", "kunyomi": null, "english": "faction, group, party" },
+  {
+    "kanji": "府",
+    "onyomi": "fu",
+    "kunyomi": null,
+    "english": "borough, urban prefecture, govt office"
+  },
+  { "kanji": "査", "onyomi": "sa", "kunyomi": null, "english": "investigate" },
+  { "kanji": "委", "onyomi": "i", "kunyomi": "yuda(neru)", "english": "committee, entrust to" },
+  { "kanji": "軍", "onyomi": "gun", "kunyomi": "ikusa", "english": "army, force, troops" },
+  { "kanji": "案", "onyomi": "an", "kunyomi": "tsukue", "english": "plan, suggestion, draft" },
+  { "kanji": "策", "onyomi": "saku", "kunyomi": null, "english": "scheme, plan, policy" },
+  {
+    "kanji": "団",
+    "onyomi": "dan, ton",
+    "kunyomi": "katamari, maru(i)",
+    "english": "group, association"
+  },
+  { "kanji": "各", "onyomi": "kaku", "kunyomi": "onoono", "english": "each, every, either" },
+  { "kanji": "島", "onyomi": "tou", "kunyomi": "shima", "english": "island" },
+  { "kanji": "革", "onyomi": "kaku", "kunyomi": "kawa", "english": "leather, skin, reform" },
+  { "kanji": "村", "onyomi": "son", "kunyomi": "mura", "english": "village, town" },
+  {
+    "kanji": "勢",
+    "onyomi": "sei",
+    "kunyomi": "ikio(i)",
+    "english": "forces, energy, military strength"
+  },
+  { "kanji": "減", "onyomi": "gen", "kunyomi": "he(ru)", "english": "dwindle, decrease, reduce" },
+  {
+    "kanji": "再",
+    "onyomi": "sai, sa",
+    "kunyomi": "futata(bi)",
+    "english": "again, twice, second time"
+  },
+  { "kanji": "税", "onyomi": "zei", "kunyomi": null, "english": "tax, duty" },
+  {
+    "kanji": "営",
+    "onyomi": "ei",
+    "kunyomi": "itona(mu)",
+    "english": "occupation, camp, perform, conduct"
+  },
+  { "kanji": "比", "onyomi": "hi", "kunyomi": "kura(beru)", "english": "compare, race, ratio" },
+  {
+    "kanji": "防",
+    "onyomi": "bou",
+    "kunyomi": "fuse(gu)",
+    "english": "ward off, defend, protect, resist"
+  },
+  {
+    "kanji": "補",
+    "onyomi": "ho",
+    "kunyomi": "ogina(u)",
+    "english": "supplement, supply, offset, compensate"
+  },
+  { "kanji": "境", "onyomi": "kyou", "kunyomi": "sakai", "english": "boundary, border, region" },
+  {
+    "kanji": "導",
+    "onyomi": "dou",
+    "kunyomi": "michibi(ku)",
+    "english": "guidance, leading, conduct, usher"
+  },
+  {
+    "kanji": "副",
+    "onyomi": "fuku",
+    "kunyomi": null,
+    "english": "vice-, assistant, duplicate, copy"
+  },
+  {
+    "kanji": "算",
+    "onyomi": "san",
+    "kunyomi": "soro",
+    "english": "calculate, divining, number, probability"
+  },
+  {
+    "kanji": "輸",
+    "onyomi": "yu, shu",
+    "kunyomi": null,
+    "english": "transport, send, be inferior"
+  },
+  { "kanji": "述", "onyomi": "jutsu", "kunyomi": "no(beru)", "english": "mention, state, speak" },
+  { "kanji": "線", "onyomi": "sen", "kunyomi": "suji", "english": "line, track" },
+  { "kanji": "農", "onyomi": "nou", "kunyomi": null, "english": "agriculture, farmers" },
+  { "kanji": "州", "onyomi": "shuu", "kunyomi": "su", "english": "state, province" },
+  {
+    "kanji": "武",
+    "onyomi": "bu, mu",
+    "kunyomi": "take(shi)",
+    "english": "warrior, military, arms"
+  },
+  {
+    "kanji": "象",
+    "onyomi": "shou, zou",
+    "kunyomi": "katado(ru)",
+    "english": "elephant, image, shape"
+  },
+  { "kanji": "域", "onyomi": "iki", "kunyomi": null, "english": "range, region, limits" },
+  {
+    "kanji": "額",
+    "onyomi": "gaku",
+    "kunyomi": "hitai",
+    "english": "forehead, sum, amount, volume"
+  },
+  { "kanji": "欧", "onyomi": "ou", "kunyomi": null, "english": "Europe" },
+  {
+    "kanji": "担",
+    "onyomi": "tan",
+    "kunyomi": "katsu(gu), nina(u)",
+    "english": "carry, bear, shoulder"
+  },
+  {
+    "kanji": "準",
+    "onyomi": "jun",
+    "kunyomi": "jun(jiru), nazora(eru)",
+    "english": "semi-, correspond to, imitate"
+  },
+  { "kanji": "賞", "onyomi": "shou", "kunyomi": "ho(meru)", "english": "prize, reward, praise" },
+  {
+    "kanji": "辺",
+    "onyomi": "hen",
+    "kunyomi": "ata(ri), hoto(ri)",
+    "english": "boundary, vicinity, border"
+  },
+  {
+    "kanji": "造",
+    "onyomi": "zou",
+    "kunyomi": "tsuku(ru)",
+    "english": "create, make, structure, physique"
+  },
+  {
+    "kanji": "被",
+    "onyomi": "hi",
+    "kunyomi": "koumu(ru), kabu(ru)",
+    "english": "incur, cover, shelter, wear, put on"
+  },
+  {
+    "kanji": "技",
+    "onyomi": "gi",
+    "kunyomi": "waza",
+    "english": "skill, art, craft, ability, vocation, arts"
+  },
+  { "kanji": "低", "onyomi": "tei", "kunyomi": "hiku(i)", "english": "lower, short, humble" },
+  { "kanji": "復", "onyomi": "fuku", "kunyomi": "mata", "english": "restore, return to, revert" },
+  { "kanji": "移", "onyomi": "i", "kunyomi": "utsu(ru)", "english": "shift, move, change" },
+  { "kanji": "個", "onyomi": "ko", "kunyomi": "", "english": "individual, counter for articles" },
+  { "kanji": "門", "onyomi": "mon", "kunyomi": "kado, to", "english": "gate" },
+  {
+    "kanji": "課",
+    "onyomi": "ka",
+    "kunyomi": "",
+    "english": "chapter, lesson, section, department"
+  },
+  { "kanji": "脳", "onyomi": "nou", "kunyomi": "nouzuru", "english": "brain, memory" },
+  {
+    "kanji": "極",
+    "onyomi": "kyoku, goku",
+    "kunyomi": "kiwa(meru)",
+    "english": "poles, settlement, conclusion, end"
+  },
+  { "kanji": "含", "onyomi": "gan", "kunyomi": "fuku(mu)", "english": "contain, include" },
+  {
+    "kanji": "蔵",
+    "onyomi": "zou",
+    "kunyomi": "kura",
+    "english": "storehouse, hide, own, have, possess"
+  },
+  {
+    "kanji": "量",
+    "onyomi": "ryou",
+    "kunyomi": "haka(ru)",
+    "english": "quantity, measure, weight, amount"
+  },
+  { "kanji": "型", "onyomi": "kei", "kunyomi": "kata", "english": "type, model" },
+  { "kanji": "況", "onyomi": "kyou", "kunyomi": "mashi(te)", "english": "condition, situation" },
+  { "kanji": "針", "onyomi": "shin", "kunyomi": "hari", "english": "needle, pin, staple, stinger" },
+  {
+    "kanji": "専",
+    "onyomi": "sen",
+    "kunyomi": "moppa(ra)",
+    "english": "specialty, exclusive, mainly, solely"
+  },
+  { "kanji": "谷", "onyomi": "koku", "kunyomi": "tani, kiwa(maru)", "english": "valley" },
+  { "kanji": "史", "onyomi": "shi", "kunyomi": "", "english": "history, chronicle" },
+  {
+    "kanji": "階",
+    "onyomi": "kai",
+    "kunyomi": "kizahashi",
+    "english": "stair, counter for building story"
+  },
+  {
+    "kanji": "管",
+    "onyomi": "kan",
+    "kunyomi": "kuda",
+    "english": "pipe, tube, wind instrument, control, jurisdiction"
+  },
+  {
+    "kanji": "兵",
+    "onyomi": "hei, hyou",
+    "kunyomi": "tsuwamono",
+    "english": "soldier, private, troops, army"
+  },
+  {
+    "kanji": "接",
+    "onyomi": "setsu",
+    "kunyomi": "tsu(gu)",
+    "english": "touch, contact, adjoin, piece together"
+  },
+  {
+    "kanji": "細",
+    "onyomi": "sai",
+    "kunyomi": "hoso(i), koma(kai)",
+    "english": "slender, narrow, detailed, precise"
+  },
+  {
+    "kanji": "効",
+    "onyomi": "kou",
+    "kunyomi": "ki(ku)",
+    "english": "merit, efficacy, efficiency, benefit"
+  },
+  {
+    "kanji": "丸",
+    "onyomi": "gan",
+    "kunyomi": "maru, maru(i)",
+    "english": "round, full (month), perfection"
+  },
+  { "kanji": "湾", "onyomi": "wan", "kunyomi": "irie", "english": "gulf, bay, inlet" },
+  { "kanji": "録", "onyomi": "roku", "kunyomi": "to(ru)", "english": "record" },
+  {
+    "kanji": "省",
+    "onyomi": "sei, shou",
+    "kunyomi": "kaeri(miru), habu(ku)",
+    "english": "focus, government ministry, conserve"
+  },
+  {
+    "kanji": "旧",
+    "onyomi": "kyuu",
+    "kunyomi": "furu(i), moto",
+    "english": "old times, old things, former, ex-"
+  },
+  { "kanji": "橋", "onyomi": "kyou", "kunyomi": "hashi", "english": "bridge" },
+  { "kanji": "岸", "onyomi": "gan", "kunyomi": "kishi", "english": "beach" },
+  {
+    "kanji": "周",
+    "onyomi": "shuu",
+    "kunyomi": "mawa(ri)",
+    "english": "circumference, circuit, lap"
+  },
+  { "kanji": "材", "onyomi": "zai", "kunyomi": "", "english": "lumber, log, timber, wood" },
+  { "kanji": "戸", "onyomi": "ko", "kunyomi": "to", "english": "door, counter for houses" },
+  { "kanji": "央", "onyomi": "ou", "kunyomi": "", "english": "center, middle" },
+  { "kanji": "券", "onyomi": "ken", "kunyomi": "", "english": "ticket" },
+  {
+    "kanji": "編",
+    "onyomi": "hen",
+    "kunyomi": "a(mu)",
+    "english": "compilation, knit, braid, twist, editing"
+  },
+  { "kanji": "捜", "onyomi": "sou", "kunyomi": "saga(su)", "english": "search, look for, locate" },
+  { "kanji": "竹", "onyomi": "chiku", "kunyomi": "take", "english": "bamboo" },
+  { "kanji": "超", "onyomi": "chou", "kunyomi": "ko(eru)", "english": "transcend, super-, ultra-" },
+  {
+    "kanji": "並",
+    "onyomi": "hei",
+    "kunyomi": "na(mi), nami, nara(beru)",
+    "english": "row, and, besides"
+  },
+  { "kanji": "療", "onyomi": "ryou", "kunyomi": "", "english": "heal, cure" },
+  { "kanji": "採", "onyomi": "sai", "kunyomi": "to(ru)", "english": "pick, take, fetch, take up" },
+  { "kanji": "森", "onyomi": "shin", "kunyomi": "mori", "english": "forest, woods" },
+  {
+    "kanji": "競",
+    "onyomi": "kyou, kei",
+    "kunyomi": "kiso(u), se(ru)",
+    "english": "compete with, bid, contest, race"
+  },
+  { "kanji": "介", "onyomi": "kai", "kunyomi": "", "english": "jammed in, shellfish, mediate" },
+  { "kanji": "根", "onyomi": "kon", "kunyomi": "ne", "english": "root, radical" },
+  { "kanji": "販", "onyomi": "han", "kunyomi": "", "english": "marketing, sell, trade" },
+  {
+    "kanji": "歴",
+    "onyomi": "reki",
+    "kunyomi": "",
+    "english": "curriculum, continuation, passage of time"
+  }
+]

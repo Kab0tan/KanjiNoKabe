@@ -1,0 +1,437 @@
+[
+  { "kanji": "氏", "onyomi": "shi", "kunyomi": "uji", "english": "family name, surname, clan" },
+  { "kanji": "統", "onyomi": "tou", "kunyomi": "su(beru)", "english": "ruling, governing" },
+  {
+    "kanji": "基",
+    "onyomi": "ki",
+    "kunyomi": "moto, motoi",
+    "english": "fundamentals, counter for machines, foundation"
+  },
+  { "kanji": "価", "onyomi": "ka", "kunyomi": "atai", "english": "value, price" },
+  {
+    "kanji": "提",
+    "onyomi": "tei",
+    "kunyomi": "sa(geru)",
+    "english": "propose, take along, carry in hand"
+  },
+  {
+    "kanji": "挙",
+    "onyomi": "kyo",
+    "kunyomi": "a(geru), kozo(ru)",
+    "english": "raise, plan, project, behavior, actions"
+  },
+  {
+    "kanji": "応",
+    "onyomi": "ou",
+    "kunyomi": "kota(eru)",
+    "english": "apply, answer, yes, OK, reply, accept"
+  },
+  {
+    "kanji": "企",
+    "onyomi": "ki",
+    "kunyomi": "kuwada(teru), takura(mu)",
+    "english": "undertake, scheme, design, attempt, plan"
+  },
+  {
+    "kanji": "検",
+    "onyomi": "ken",
+    "kunyomi": "shira(beru)",
+    "english": "examination, investigate"
+  },
+  { "kanji": "藤", "onyomi": "tou", "kunyomi": "fuji", "english": "wisteria" },
+  {
+    "kanji": "沢",
+    "onyomi": "taku",
+    "kunyomi": "sawa",
+    "english": "swamp, marsh, brilliance, grace"
+  },
+  {
+    "kanji": "裁",
+    "onyomi": "sai",
+    "kunyomi": "ta(tsu), saba(ku)",
+    "english": "tailor, judge, decision, cut out (pattern)"
+  },
+  {
+    "kanji": "証",
+    "onyomi": "shou",
+    "kunyomi": "akashi",
+    "english": "evidence, proof, certificate"
+  },
+  { "kanji": "援", "onyomi": "en", "kunyomi": "", "english": "abet, help, save" },
+  {
+    "kanji": "可",
+    "onyomi": "ka",
+    "kunyomi": "be(ki)",
+    "english": "can, passable, mustn't, should not"
+  },
+  {
+    "kanji": "施",
+    "onyomi": "shi, se",
+    "kunyomi": "hodoko(su)",
+    "english": "give, bestow, perform, alms"
+  },
+  {
+    "kanji": "井",
+    "onyomi": "sei, shou",
+    "kunyomi": "i",
+    "english": "well, well crib, town, community"
+  },
+  { "kanji": "護", "onyomi": "go", "kunyomi": "mamo(ru)", "english": "safeguard, protect" },
+  { "kanji": "展", "onyomi": "ten", "kunyomi": "", "english": "unfold, expand" },
+  { "kanji": "態", "onyomi": "tai", "kunyomi": "waza(to)", "english": "attitude, condition" },
+  { "kanji": "鮮", "onyomi": "sen", "kunyomi": "aza(yaka)", "english": "fresh, vivid, clear" },
+  {
+    "kanji": "視",
+    "onyomi": "shi",
+    "kunyomi": "mi(ru)",
+    "english": "inspection, regard as, see, look at"
+  },
+  {
+    "kanji": "条",
+    "onyomi": "jou",
+    "kunyomi": "",
+    "english": "article, clause, counter for articles"
+  },
+  {
+    "kanji": "幹",
+    "onyomi": "kan",
+    "kunyomi": "miki",
+    "english": "tree trunk, main part, talent, capability"
+  },
+  {
+    "kanji": "独",
+    "onyomi": "doku",
+    "kunyomi": "hito(ri)",
+    "english": "single, alone, spontaneously"
+  },
+  {
+    "kanji": "宮",
+    "onyomi": "kyuu, guu, ku",
+    "kunyomi": "miya",
+    "english": "Shinto shrine, constellations, palace, princess"
+  },
+  {
+    "kanji": "率",
+    "onyomi": "sotsu, ritsu",
+    "kunyomi": "hiki(iru)",
+    "english": "ratio, rate, proportion, %, factor, lead"
+  },
+  { "kanji": "衛", "onyomi": "ei", "kunyomi": "", "english": "defense, protection" },
+  {
+    "kanji": "張",
+    "onyomi": "chou",
+    "kunyomi": "ha(ru)",
+    "english": "lengthen, counter for bows & stringed instruments, stretch, spread, put up (tent)"
+  },
+  {
+    "kanji": "監",
+    "onyomi": "kan",
+    "kunyomi": "",
+    "english": "oversee, official, govt office, rule, administer"
+  },
+  { "kanji": "環", "onyomi": "kan", "kunyomi": "wa", "english": "ring, circle, link, wheel" },
+  {
+    "kanji": "審",
+    "onyomi": "shin",
+    "kunyomi": "tsumabi(raka), tsubusa(ni)",
+    "english": "hearing, judge, trial"
+  },
+  {
+    "kanji": "義",
+    "onyomi": "gi",
+    "kunyomi": "",
+    "english": "righteousness, justice, morality, honor, loyalty, meaning"
+  },
+  {
+    "kanji": "訴",
+    "onyomi": "so",
+    "kunyomi": "utta(eru)",
+    "english": "accusation, sue, complain of pain, appeal to"
+  },
+  {
+    "kanji": "株",
+    "onyomi": "shu",
+    "kunyomi": "kabu",
+    "english": "stocks, stump, shares, stock, counter for small plants"
+  },
+  { "kanji": "姿", "onyomi": "shi", "kunyomi": "sugata", "english": "figure, form, shape" },
+  { "kanji": "閣", "onyomi": "kaku", "kunyomi": "", "english": "tower, tall building, palace" },
+  { "kanji": "韓", "onyomi": "kan", "kunyomi": "kara, igeta", "english": "Korea" },
+  {
+    "kanji": "衆",
+    "onyomi": "shuu, shu",
+    "kunyomi": "oo(i)",
+    "english": "masses, great numbers, multitude, populace"
+  },
+  { "kanji": "評", "onyomi": "hyou", "kunyomi": "", "english": "evaluate, criticism, comment" },
+  { "kanji": "岡", "onyomi": "kou", "kunyomi": "oka", "english": "mount, hill, knoll" },
+  { "kanji": "影", "onyomi": "ei", "kunyomi": "kage", "english": "shadow, silhouette, phantom" },
+  { "kanji": "松", "onyomi": "shou", "kunyomi": "matsu", "english": "pine tree" },
+  {
+    "kanji": "撃",
+    "onyomi": "geki",
+    "kunyomi": "u(tsu)",
+    "english": "beat, attack, defeat, conquer"
+  },
+  { "kanji": "佐", "onyomi": "sa", "kunyomi": "", "english": "assistant, help" },
+  { "kanji": "核", "onyomi": "kaku", "kunyomi": "", "english": "nucleus, core, kernel" },
+  {
+    "kanji": "整",
+    "onyomi": "sei",
+    "kunyomi": "totono(eru)",
+    "english": "organize, arranging, tune, tone, meter, key (music)"
+  },
+  { "kanji": "融", "onyomi": "yuu", "kunyomi": "to(keru)", "english": "dissolve, melt" },
+  { "kanji": "製", "onyomi": "sei", "kunyomi": "", "english": "made in..., manufacture" },
+  { "kanji": "票", "onyomi": "hyou", "kunyomi": "", "english": "ballot, label, ticket, sign" },
+  {
+    "kanji": "渉",
+    "onyomi": "shou",
+    "kunyomi": "wata(ru)",
+    "english": "ford, go cross, transit, ferry, import, involve"
+  },
+  {
+    "kanji": "響",
+    "onyomi": "kyou",
+    "kunyomi": "hibi(ku)",
+    "english": "echo, sound, resound, ring, vibrate"
+  },
+  {
+    "kanji": "推",
+    "onyomi": "sui",
+    "kunyomi": "o(su)",
+    "english": "conjecture, infer, guess, suppose, support, push (for)"
+  },
+  {
+    "kanji": "請",
+    "onyomi": "sei, shin, shou",
+    "kunyomi": "ko(u), u(keru)",
+    "english": "solicit, invite, ask"
+  },
+  {
+    "kanji": "器",
+    "onyomi": "ki",
+    "kunyomi": "utsuwa",
+    "english": "utensil, vessel, receptacle, implement, instrument, ability, container, tool, set"
+  },
+  {
+    "kanji": "士",
+    "onyomi": "shi",
+    "kunyomi": "samurai",
+    "english": "gentleman, scholar, samurai"
+  },
+  {
+    "kanji": "討",
+    "onyomi": "tou",
+    "kunyomi": "u(tsu)",
+    "english": "chastise, attack, defeat, destroy, conquer"
+  },
+  {
+    "kanji": "攻",
+    "onyomi": "kou",
+    "kunyomi": "se(meru)",
+    "english": "aggression, attack, criticize, polish"
+  },
+  {
+    "kanji": "崎",
+    "onyomi": "ki",
+    "kunyomi": "saki, sai, misaki",
+    "english": "promontory, cape, spit"
+  },
+  {
+    "kanji": "督",
+    "onyomi": "toku",
+    "kunyomi": "",
+    "english": "coach, command, urge, lead, supervise"
+  },
+  {
+    "kanji": "授",
+    "onyomi": "ju",
+    "kunyomi": "sazu(keru)",
+    "english": "impart, instruct, grant, confer"
+  },
+  {
+    "kanji": "催",
+    "onyomi": "sai",
+    "kunyomi": "moyou(su), moyoo(su)",
+    "english": "sponsor, hold (a meeting), give (a dinner)"
+  },
+  {
+    "kanji": "及",
+    "onyomi": "kyuu",
+    "kunyomi": "oyo(bu), oyobi",
+    "english": "reach out, exert, exercise, cause"
+  },
+  { "kanji": "憲", "onyomi": "ken", "kunyomi": "", "english": "constitution, law" },
+  {
+    "kanji": "離",
+    "onyomi": "ri",
+    "kunyomi": "hana(reru)",
+    "english": "detach, separation, disjoin, digress"
+  },
+  {
+    "kanji": "激",
+    "onyomi": "geki",
+    "kunyomi": "hage(shii)",
+    "english": "violent, get excited, enraged, chafe, incite"
+  },
+  {
+    "kanji": "摘",
+    "onyomi": "teki",
+    "kunyomi": "tsu(mu)",
+    "english": "pinch, pick, pluck, trim, clip, summarize"
+  },
+  { "kanji": "系", "onyomi": "kei", "kunyomi": "", "english": "lineage, system" },
+  { "kanji": "批", "onyomi": "hi", "kunyomi": "", "english": "criticism, strike" },
+  { "kanji": "郎", "onyomi": "rou, ryou", "kunyomi": "otoko", "english": "son, counter for sons" },
+  {
+    "kanji": "健",
+    "onyomi": "ken",
+    "kunyomi": "suko(yaka)",
+    "english": "healthy, health, strength, persistence"
+  },
+  {
+    "kanji": "従",
+    "onyomi": "juu, shou, ju",
+    "kunyomi": "shitaga(u), yori",
+    "english": "accompany, obey, submit to, comply, follow, secondary, incidental, subordinate"
+  },
+  {
+    "kanji": "修",
+    "onyomi": "shuu, shu",
+    "kunyomi": "osa(meru)",
+    "english": "discipline, conduct oneself well, study, master"
+  },
+  { "kanji": "隊", "onyomi": "tai", "kunyomi": "", "english": "regiment, party, company, squad" },
+  {
+    "kanji": "織",
+    "onyomi": "shoku, shiki",
+    "kunyomi": "o(ru), ori, -ori, -o(ri)",
+    "english": "weave, fabric"
+  },
+  {
+    "kanji": "拡",
+    "onyomi": "kaku, kou",
+    "kunyomi": "hiro(garu)",
+    "english": "broaden, extend, expand, enlarge"
+  },
+  {
+    "kanji": "故",
+    "onyomi": "ko",
+    "kunyomi": "yue, furu(i), moto",
+    "english": "happenstance, especially, intentionally, reason, cause, circumstances, the late, therefore"
+  },
+  { "kanji": "振", "onyomi": "shin", "kunyomi": "fu(ru)", "english": "shake, wave, wag, swing" },
+  {
+    "kanji": "弁",
+    "onyomi": "ben, hen",
+    "kunyomi": "kanmuri, wakama(eru), wa(keru), hanabira",
+    "english": "valve, petal, braid, speech, dialect, discrimination, dispose of, distinguish, conical cap"
+  },
+  {
+    "kanji": "就",
+    "onyomi": "shuu, ju",
+    "kunyomi": "tsu(ku)",
+    "english": "concerning, settle, take position, depart, study, per"
+  },
+  {
+    "kanji": "異",
+    "onyomi": "i",
+    "kunyomi": "koto, koto(naru), ke",
+    "english": "uncommon, different, queerness, strangeness, wonderful, curious, unusual"
+  },
+  {
+    "kanji": "献",
+    "onyomi": "ken, kon",
+    "kunyomi": "tatematsu(ru)",
+    "english": "offering, counter for drinks, present, offer"
+  },
+  {
+    "kanji": "厳",
+    "onyomi": "gen, gon",
+    "kunyomi": "ogoso(ka), kibi(shii), ika(meshii), itsukushi",
+    "english": "stern, strictness, severity, rigidity"
+  },
+  { "kanji": "維", "onyomi": "i", "kunyomi": "", "english": "fiber, tie, rope" },
+  { "kanji": "浜", "onyomi": "hin", "kunyomi": "hama", "english": "seacoast, beach, seashore" },
+  {
+    "kanji": "遺",
+    "onyomi": "i, yui",
+    "kunyomi": "noko(su)",
+    "english": "bequeath, leave behind, reserve"
+  },
+  {
+    "kanji": "塁",
+    "onyomi": "rui, rai, sui",
+    "kunyomi": "toride",
+    "english": "bases, fort, rampart, walls, base(ball)"
+  },
+  { "kanji": "邦", "onyomi": "hou", "kunyomi": "kuni", "english": "home country, country, Japan" },
+  {
+    "kanji": "素",
+    "onyomi": "so, su",
+    "kunyomi": "moto",
+    "english": "elementary, principle, naked, uncovered"
+  },
+  {
+    "kanji": "遣",
+    "onyomi": "ken",
+    "kunyomi": "tsuka(u), -tsuka(i), -dzuka(i), ya(ru)",
+    "english": "dispatch, despatch, send, give, donate, do, undertake"
+  },
+  {
+    "kanji": "抗",
+    "onyomi": "kou",
+    "kunyomi": "araga(u)",
+    "english": "confront, resist, defy, oppose"
+  },
+  { "kanji": "模", "onyomi": "mo, bo", "kunyomi": "", "english": "imitation, copy, mock" },
+  {
+    "kanji": "雄",
+    "onyomi": "yuu",
+    "kunyomi": "o-, osu, on",
+    "english": "masculine, male, hero, leader, superiority, excellence"
+  },
+  {
+    "kanji": "益",
+    "onyomi": "eki, yaku",
+    "kunyomi": "ma(su)",
+    "english": "benefit, gain, profit, advantage"
+  },
+  {
+    "kanji": "緊",
+    "onyomi": "kin",
+    "kunyomi": "shi(meru)",
+    "english": "tense, solid, hard, reliable, tight"
+  },
+  {
+    "kanji": "標",
+    "onyomi": "hyou",
+    "kunyomi": "shirube, shirushi",
+    "english": "signpost, seal, mark, stamp, imprint, symbol, emblem, trademark, evidence, souvenir, target"
+  },
+  {
+    "kanji": "宣",
+    "onyomi": "sen",
+    "kunyomi": "notama(u)",
+    "english": "proclaim, say, announce"
+  },
+  {
+    "kanji": "昭",
+    "onyomi": "shou",
+    "kunyomi": "",
+    "english": "shining, bright"
+  },
+  {
+    "kanji": "廃",
+    "onyomi": "hai",
+    "kunyomi": "suta(reru)",
+    "english": "abolish, obsolete, cessation, discarding, abandon"
+  },
+  {
+    "kanji": "伊",
+    "onyomi": "i",
+    "kunyomi": "kare",
+    "english": "Italy, that one"
+  }
+]

@@ -11,4 +11,14 @@
   &--slider {
     margin-bottom: 3em;
   }
+
+  &__switch_mode {
+    width: 100%;
+
+    &--col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

@@ -1,6 +1,6 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
-import data from '@/assets/constants/N5.json'
+import defaultKanji from '@/assets/constants/N5.json'
 
 export const useKanjiStore = defineStore('kanjiStore', () => {
   //left panel
@@ -11,13 +11,13 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   const gameType = ref('mqc')
 
   //main panel
-  const kanjisList = ref(data)
+  const kanjisList = ref(defaultKanji)
   const score = ref(0)
   const wrongAnswers = ref(0)
-  const optionsList = ref(data.map((item) => item.english))
+  const optionsList = ref(defaultKanji.map((item) => item.english))
   const randomItems = ref([])
   const currentKanjiIndex = ref(0)
-  const isPlaying = ref(false)
+  const isPlaying = ref(true)
   const hasClicked = ref(false)
   const myInputAnswer = ref('')
 
@@ -26,10 +26,10 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   })
 
   const kanjiIdeogram = computed(() => {
-    return currentKanji.value.kanji
+    return currentKanji?.value.kanji
   })
 
-  const myAnswer = computed(() => {
+  const correctAnswer = computed(() => {
     if (questionType.value === 'definition') {
       return currentKanji.value.english
     }
@@ -49,12 +49,23 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
     }
   })
 
+  const loadKanjiData = async () => {
+    try {
+      const data = await import(`@/assets/constants/N${level.value}.json`)
+      kanjisList.value = shuffleArray(data.default)
+      // optionsList.value = data.default.map((item) => item.english)
+      refresh()
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
   const handlePlay = () => {
     isPlaying.value = true
     score.value = 0
     wrongAnswers.value = 0
     currentKanjiIndex.value = 0
-    kanjisList.value = shuffleArray(data)
+    kanjisList.value = shuffleArray(kanjisList.value)
     refresh()
   }
 
@@ -79,7 +90,7 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const handleInput = () => {
-    if (myAnswer.value.includes(myInputAnswer.value)) {
+    if (correctAnswer.value.includes(myInputAnswer.value)) {
       score.value++
     } else {
       wrongAnswers.value++
@@ -97,14 +108,16 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const handleQuestionType = () => {
-    if (questionType.value === 'definition') {
-      optionsList.value = data.map((item) => item.english)
-    } else {
-      optionsList.value = data.map((item) => {
-        return { onyomi: item.onyomi, kunyomi: item.kunyomi }
-      })
+    if (kanjisList.value.length > 0) {
+      if (questionType.value === 'definition') {
+        optionsList.value = kanjisList.value.map((item) => item.english)
+      } else {
+        optionsList.value = kanjisList.value.map((item) => {
+          return { onyomi: item.onyomi, kunyomi: item.kunyomi }
+        })
+      }
+      handlePlay()
     }
-    handlePlay()
   }
 
   const handleGameType = () => {
@@ -116,6 +129,7 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const shuffleArray = (array) => {
+    if (array.length <= 1) return array
     const shuffledArray = [...array]
     for (let i = shuffledArray.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
@@ -173,9 +187,10 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
     myInputAnswer,
     //getters
     kanjiIdeogram,
-    myAnswer,
+    correctAnswer,
     dynamicRandomItem,
     //actions
+    loadKanjiData,
     handlePlay,
     handleSubmission,
     handleInput,
