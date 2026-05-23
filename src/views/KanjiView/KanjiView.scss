@@ -64,6 +64,17 @@
   box-shadow: 10px 11px 31px 0px rgba(0, 0, 0, 0.1);
 }
 
+.wrong {
+  display: block;
+  margin: 10px 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(255, 100, 100);
+  box-shadow: 10px 11px 31px 0px rgba(0, 0, 0, 0.1);
+}
+
 .input {
   &__correct .el-input__inner {
     background-color: rgb(111, 218, 111);

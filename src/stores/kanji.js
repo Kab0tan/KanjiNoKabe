@@ -20,6 +20,8 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   const isPlaying = ref(true)
   const hasClicked = ref(false)
   const myInputAnswer = ref('')
+  const lastSubmittedAnswer = ref(null)
+  const lastAnswerCorrect = ref(false)
 
   const currentKanji = computed(() => {
     return kanjisList?.value[currentKanjiIndex?.value]
@@ -49,14 +51,19 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
     }
   })
 
+  const kanjiCache = {}
+
   const loadKanjiData = async () => {
     try {
-      const data = await import(`@/assets/constants/N${level.value}.json`)
-      kanjisList.value = shuffleArray(data.default)
-      handleQuestionType() //refresh options
+      if (!kanjiCache[level.value]) {
+        const data = await import(`@/assets/constants/N${level.value}.json`)
+        kanjiCache[level.value] = data.default
+      }
+      kanjisList.value = shuffleArray(kanjiCache[level.value])
+      handleQuestionType()
       refresh()
     } catch (error) {
-      console.log(error)
+      console.error('Failed to load kanji data:', error)
     }
   }
 
@@ -70,10 +77,13 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const handleSubmission = (event) => {
-    if (
+    if (hasClicked.value) return
+    lastSubmittedAnswer.value = event
+    const isCorrect =
       event === currentKanji.value.english ||
       (event.onyomi === currentKanji.value.onyomi && event.kunyomi === currentKanji.value.kunyomi)
-    ) {
+    lastAnswerCorrect.value = isCorrect
+    if (isCorrect) {
       score.value++
     } else {
       wrongAnswers.value++
@@ -90,7 +100,18 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const handleInput = () => {
-    if (correctAnswer.value.includes(myInputAnswer.value)) {
+    if (hasClicked.value) return
+    const input = myInputAnswer.value.trim().toLowerCase()
+    let isCorrect = false
+    if (questionType.value === 'definition') {
+      isCorrect = input === currentKanji.value.english.toLowerCase()
+    } else {
+      isCorrect =
+        input === (currentKanji.value.onyomi || '').toLowerCase() ||
+        input === (currentKanji.value.kunyomi || '').toLowerCase()
+    }
+    lastAnswerCorrect.value = isCorrect
+    if (isCorrect) {
       score.value++
     } else {
       wrongAnswers.value++
@@ -121,11 +142,7 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
   }
 
   const handleGameType = () => {
-    if (gameType.value === 'mqc') {
-      console.log('mqc')
-    } else {
-      console.log('input')
-    }
+    handlePlay()
   }
 
   const shuffleArray = (array) => {
@@ -142,17 +159,19 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
 
   //fill ref randomItems with 3 random options from _data
   const getRandomAnswers = (_data) => {
-    const optionsListCopy = _data.value.slice() // Make a copy of the optionsList array
-    //reset list before filling it
-    console.log(_data)
+    const optionsListCopy = _data.value.slice()
     randomItems.value = []
     for (let i = 0; i < 3; i++) {
       let randomIndex
       do {
         randomIndex = Math.floor(Math.random() * optionsListCopy.length)
-      } while (optionsListCopy[randomIndex] === currentKanji.value.english) //fill list
+      } while (
+        questionType.value === 'definition'
+          ? optionsListCopy[randomIndex] === currentKanji.value.english
+          : optionsListCopy[randomIndex]?.onyomi === currentKanji.value.onyomi &&
+            optionsListCopy[randomIndex]?.kunyomi === currentKanji.value.kunyomi
+      )
       randomItems.value.push(optionsListCopy[randomIndex])
-      // Remove the selected item from the copy of the array to avoid duplicates
       optionsListCopy.splice(randomIndex, 1)
     }
   }
@@ -186,6 +205,8 @@ export const useKanjiStore = defineStore('kanjiStore', () => {
     hasClicked,
     optionsList,
     myInputAnswer,
+    lastSubmittedAnswer,
+    lastAnswerCorrect,
     //getters
     kanjiIdeogram,
     correctAnswer,

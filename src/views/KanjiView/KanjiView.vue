@@ -18,8 +18,8 @@
         <ElCol v-if="gameType === 'mqc'">
           <ElRow justify="center">
             <button
-              :disabled="!isPlaying"
-              :class="checkAnswer(randomItems[0]) ? 'correct' : 'answer'"
+              :disabled="!isPlaying || hasClicked"
+              :class="checkAnswer(randomItems[0]) ? 'correct' : isWrongAnswer(randomItems[0]) ? 'wrong' : 'answer'"
               @click="handleSubmission(randomItems[0])"
             >
               <template v-for="(field, index) in dynamicRandomItem[0]" :key="index">
@@ -28,8 +28,8 @@
               </template>
             </button>
             <button
-              :disabled="!isPlaying"
-              :class="checkAnswer(randomItems[1]) ? 'correct' : 'answer'"
+              :disabled="!isPlaying || hasClicked"
+              :class="checkAnswer(randomItems[1]) ? 'correct' : isWrongAnswer(randomItems[1]) ? 'wrong' : 'answer'"
               @click="handleSubmission(randomItems[1])"
             >
               <template v-for="(field, index) in dynamicRandomItem[1]" :key="index">
@@ -40,8 +40,8 @@
           </ElRow>
           <ElRow justify="center">
             <button
-              :disabled="!isPlaying"
-              :class="checkAnswer(randomItems[2]) ? 'correct' : 'answer'"
+              :disabled="!isPlaying || hasClicked"
+              :class="checkAnswer(randomItems[2]) ? 'correct' : isWrongAnswer(randomItems[2]) ? 'wrong' : 'answer'"
               @click="handleSubmission(randomItems[2])"
             >
               <template v-for="(field, index) in dynamicRandomItem[2]" :key="index">
@@ -50,8 +50,8 @@
               </template>
             </button>
             <button
-              :disabled="!isPlaying"
-              :class="checkAnswer(randomItems[3]) ? 'correct' : 'answer'"
+              :disabled="!isPlaying || hasClicked"
+              :class="checkAnswer(randomItems[3]) ? 'correct' : isWrongAnswer(randomItems[3]) ? 'wrong' : 'answer'"
               @click="handleSubmission(randomItems[3])"
             >
               <template v-for="(field, index) in dynamicRandomItem[3]" :key="index">
@@ -68,8 +68,8 @@
             :disabled="!isPlaying"
             @keyup.enter="handleInput"
             :class="{
-              input__correct: correctAnswer.includes(myInputAnswer) && myInputAnswer && hasClicked,
-              input__wrong: (!correctAnswer.includes(myInputAnswer) || !myInputAnswer) && hasClicked
+              input__correct: lastAnswerCorrect && hasClicked,
+              input__wrong: !lastAnswerCorrect && hasClicked
             }"
           ></ElInput>
         </ElCol>
@@ -111,7 +111,9 @@ const {
   kanjiIdeogram,
   gameType,
   myInputAnswer,
-  questionType
+  questionType,
+  lastSubmittedAnswer,
+  lastAnswerCorrect
 } = storeToRefs(kanjiStore)
 
 const { shuffleArray, refresh, handleSubmission, handleInput } = kanjiStore
@@ -122,6 +124,14 @@ const checkAnswer = (submission) => {
   } else {
     return JSON.stringify(submission) === JSON.stringify(correctAnswer.value) && hasClicked.value
   }
+}
+
+const isWrongAnswer = (submission) => {
+  if (!hasClicked.value || checkAnswer(submission)) return false
+  if (questionType.value === 'definition') {
+    return submission === lastSubmittedAnswer.value
+  }
+  return JSON.stringify(submission) === JSON.stringify(lastSubmittedAnswer.value)
 }
 
 //-------------lifecycle hooks
