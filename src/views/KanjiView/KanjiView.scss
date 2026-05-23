@@ -12,6 +12,29 @@
   margin-right: 0;
 }
 
+@media (max-width: 991px) {
+  .panel-center {
+    order: 1;
+  }
+  .panel-left {
+    order: 2;
+  }
+  .panel-right {
+    order: 3;
+  }
+
+  .el-radio-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .quiz-card {
+    width: min(300px, 90vw);
+  }
+}
+
 .quiz-card {
   display: flex;
   flex-direction: column;

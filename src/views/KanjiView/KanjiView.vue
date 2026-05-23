@@ -1,11 +1,11 @@
 <template>
-  <ElRow>
+  <ElRow :gutter="16" style="flex-wrap: wrap">
     <!-- leftPanel -->
-    <ElCol :span="8">
+    <ElCol :xs="24" :md="8" class="panel-left">
       <KanjiLeftPanel />
     </ElCol>
     <!-- centerPanel -->
-    <ElCol :span="9">
+    <ElCol :xs="24" :md="9" class="panel-center">
       <!-- ideogram symbol -->
       <ElRow justify="center" class="main-row">
         <div class="quiz-card">
@@ -19,7 +19,13 @@
           <ElRow justify="center">
             <button
               :disabled="!isPlaying || hasClicked"
-              :class="checkAnswer(randomItems[0]) ? 'correct' : isWrongAnswer(randomItems[0]) ? 'wrong' : 'answer'"
+              :class="
+                checkAnswer(randomItems[0])
+                  ? 'correct'
+                  : isWrongAnswer(randomItems[0])
+                    ? 'wrong'
+                    : 'answer'
+              "
               @click="handleSubmission(randomItems[0])"
             >
               <template v-for="(field, index) in dynamicRandomItem[0]" :key="index">
@@ -29,7 +35,13 @@
             </button>
             <button
               :disabled="!isPlaying || hasClicked"
-              :class="checkAnswer(randomItems[1]) ? 'correct' : isWrongAnswer(randomItems[1]) ? 'wrong' : 'answer'"
+              :class="
+                checkAnswer(randomItems[1])
+                  ? 'correct'
+                  : isWrongAnswer(randomItems[1])
+                    ? 'wrong'
+                    : 'answer'
+              "
               @click="handleSubmission(randomItems[1])"
             >
               <template v-for="(field, index) in dynamicRandomItem[1]" :key="index">
@@ -41,7 +53,13 @@
           <ElRow justify="center">
             <button
               :disabled="!isPlaying || hasClicked"
-              :class="checkAnswer(randomItems[2]) ? 'correct' : isWrongAnswer(randomItems[2]) ? 'wrong' : 'answer'"
+              :class="
+                checkAnswer(randomItems[2])
+                  ? 'correct'
+                  : isWrongAnswer(randomItems[2])
+                    ? 'wrong'
+                    : 'answer'
+              "
               @click="handleSubmission(randomItems[2])"
             >
               <template v-for="(field, index) in dynamicRandomItem[2]" :key="index">
@@ -51,7 +69,13 @@
             </button>
             <button
               :disabled="!isPlaying || hasClicked"
-              :class="checkAnswer(randomItems[3]) ? 'correct' : isWrongAnswer(randomItems[3]) ? 'wrong' : 'answer'"
+              :class="
+                checkAnswer(randomItems[3])
+                  ? 'correct'
+                  : isWrongAnswer(randomItems[3])
+                    ? 'wrong'
+                    : 'answer'
+              "
               @click="handleSubmission(randomItems[3])"
             >
               <template v-for="(field, index) in dynamicRandomItem[3]" :key="index">
@@ -81,7 +105,7 @@
       </ElRow>
     </ElCol>
     <!-- rightPanel -->
-    <ElCol :span="7">
+    <ElCol :xs="24" :md="7" class="panel-right">
       <KanjiRightPanel />
     </ElCol>
   </ElRow>
